@@ -1,6 +1,16 @@
 <?php
+
+$host = "localhost";   // or 127.0.0.1
+$user = "root";        // default phpMyAdmin user
+$pass = "";            // leave blank if no password (XAMPP/WAMP default)
+$db   = "borrow_system";
+
+$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $pass);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+?>
+
 /*
-📘 Basic Borrow & Return System (PHP + SQLite)
+📘 Basic Borrow & Return System (PHP + MySQL)
 
 This is a super simple demo system where:
 - Students can be added (default type: "free").
