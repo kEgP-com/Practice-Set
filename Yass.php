@@ -1,3 +1,3 @@
 <?php 
-    echo "Yes!!";
+    echo "Practice lng!!";
     ?>
