@@ -1,8 +1,10 @@
 <?php
 echo <<<QUOTE 
-"Two things are infinite: the universe and human stupidity; 
-and I'm not sure about the universe."
 
-    - by: Albert Einstein
+"TWO things are infinite: the UNIVERSE and human stupidity; 
+and I'm not sure about the UNIVERSE."
+
+    - by: Albert Einstein  
+
 QUOTE;
 ?>
